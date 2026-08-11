@@ -1,0 +1,67 @@
+<!-- descronificar Ameghino -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Descronificar Ameghino</title>
+<link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+
+  <div id="contenedor">
+    <p class="cargando">cargando…</p>
+  </div>
+
+  <script>
+    async function cargarObra() {
+      const params = new URLSearchParams(window.location.search);
+      const slug = params.get('a');
+      const contenedor = document.getElementById('contenedor');
+
+      if (!slug) {
+        contenedor.innerHTML = '<p class="error">Obra no especificada.</p>';
+        return;
+      }
+
+      try {
+        const respuesta = await fetch('../obras.json');
+        const datos = await respuesta.json();
+        const obra = datos[slug];
+
+        if (!obra) {
+          contenedor.innerHTML = '<p class="error">Obra no encontrada.</p>';
+          return;
+        }
+
+        document.title = obra.titulo + ' — ' + obra.autor;
+
+        const metadatosPartes = [obra.autor, obra.anio, obra.tecnica].filter(Boolean);
+
+        contenedor.innerHTML = `
+          ${obra.imagenRetrato ? `<img class="obra-imagen" src="../imagenes/${obra.imagenRetrato}" alt="${obra.autor}">` : ''}
+
+          <div class="contenido">
+            <hr class="lineas-decorativas">
+
+            ${obra.textoObra
+              ? `<h1>${obra.titulo}</h1><p class="poema-texto">${obra.textoObra}</p>`
+              : obra.imagenObra
+                ? `<img class="poema-imagen" src="../imagenes/${obra.imagenObra}" alt="${obra.titulo}, de ${obra.autor}">`
+                : `<h1>${obra.titulo}</h1><p class="metadatos">${metadatosPartes.join(' · ')}</p>`}
+
+            <hr class="separador">
+
+            <p class="contexto">${obra.contexto}</p>
+          </div>
+        `;
+      } catch (err) {
+        contenedor.innerHTML = '<p class="error">No se pudo cargar la obra.</p>';
+      }
+    }
+
+    cargarObra();
+  </script>
+
+</body>
+</html>
