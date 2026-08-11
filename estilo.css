@@ -1,0 +1,120 @@
+/* descronificar Ameghino — estilo compartido */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background-color: #141210;
+  color: #f5efe4;
+  font-family: 'IM Fell English', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 6rem;
+}
+
+.obra-imagen {
+  width: 100%;
+  max-width: 720px;
+  display: block;
+  opacity: 0;
+  animation: aparecer 1.8s ease forwards;
+}
+
+.contenido {
+  max-width: 620px;
+  padding: 2.5rem 1.75rem 0;
+  text-align: center;
+  opacity: 0;
+  animation: aparecer 1.8s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.lineas-decorativas {
+  margin: 0 auto 1.75rem;
+  width: 120px;
+  border: none;
+  border-top: 1px solid #b0a090;
+  position: relative;
+}
+.lineas-decorativas::after {
+  content: "";
+  display: block;
+  width: 120px;
+  border-top: 1px solid #b0a090;
+  margin-top: 4px;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2.6rem;
+  color: #f5efe4;
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.metadatos {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  color: #d8cfc2;
+  margin-bottom: 1.75rem;
+  text-transform: uppercase;
+}
+
+.separador {
+  width: 60px;
+  border: none;
+  border-top: 1px solid #c8a97a;
+  margin: 0 auto 2.25rem;
+}
+
+.poema-imagen {
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto 2.5rem;
+  display: block;
+}
+
+.poema-texto {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: #f5efe4;
+  max-width: 520px;
+  margin: 0 auto 2.5rem;
+  white-space: pre-line;
+}
+
+.contexto {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #d8cfc2;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.cargando, .error {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  color: #b0a090;
+  padding-top: 4rem;
+}
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 2.1rem; }
+  .contexto { font-size: 1.05rem; }
+}

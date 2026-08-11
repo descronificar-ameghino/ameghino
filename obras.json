@@ -1,0 +1,21 @@
+{
+  "pizarnik": {
+    "titulo": "La carencia",
+    "autor": "Alejandra Pizarnik",
+    "anio": "",
+    "tecnica": "poema",
+    "imagenRetrato": "",
+    "imagenObra": "Pizarnik-la-carencia.jpg",
+    "contexto": "Alejandra Pizarnik atravesó internaciones psiquiátricas hacia el final de su vida. Escribió hasta el final buscando un lenguaje capaz de nombrar lo que dolía."
+  },
+
+  "carrington": {
+    "titulo": "La giganta",
+    "autor": "Leonora Carrington",
+    "anio": "1947",
+    "tecnica": "óleo sobre tela",
+    "imagenRetrato": "",
+    "imagenObra": "Leonora-Carrington-La-giganta-1947.jpg",
+    "contexto": "Leonora Carrington fue internada contra su voluntad en España en 1940. Pintó esto en México, en 1947, viviendo en comunidad."
+  }
+}
