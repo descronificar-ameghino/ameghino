@@ -48,7 +48,7 @@
             <p class="metadatos">${metadatosPartes.join(' · ')}</p>
 
             ${obra.textoObra
-              ? `<p class="poema-texto">${obra.textoObra}</p>`
+              ? `<p class="poema-texto${obra.alineacion === 'izquierda' ? ' alineado-izquierda' : ''}">${obra.textoObra}</p>`
               : obra.imagenObra
                 ? `<img class="poema-imagen" src="../imagenes/${obra.imagenObra}" alt="${obra.titulo}, de ${obra.autor}">`
                 : ''}
