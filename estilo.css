@@ -95,11 +95,28 @@ h1 {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
   font-weight: 600;
-  font-size: 1.15rem;
-  line-height: 1.7;
+  font-size: 1.4rem;
+  line-height: 1.75;
   color: #d8cfc2;
   max-width: 480px;
   margin: 0 auto;
+}
+
+.firma {
+  font-family: 'IM Fell English', serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  color: #b0a090;
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #2a2622;
+  max-width: 480px;
+}
+
+.firma a {
+  color: #c8a97a;
+  text-decoration: none;
 }
 
 .cargando, .error {
@@ -116,5 +133,5 @@ h1 {
 
 @media (max-width: 480px) {
   h1 { font-size: 2.1rem; }
-  .contexto { font-size: 1.05rem; }
+  .contexto { font-size: 1.2rem; }
 }
