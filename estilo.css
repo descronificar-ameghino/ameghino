@@ -89,13 +89,19 @@ h1 {
   max-width: 520px;
   margin: 0 auto 2.5rem;
   white-space: pre-line;
+  text-align: center;
+}
+
+.poema-texto.alineado-izquierda {
+  text-align: left;
+  max-width: 560px;
 }
 
 .contexto {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'IM Fell English', serif;
   font-style: italic;
-  font-weight: 600;
-  font-size: 1.4rem;
+  font-weight: normal;
+  font-size: 1.3rem;
   line-height: 1.75;
   color: #d8cfc2;
   max-width: 480px;
