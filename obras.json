@@ -1,5 +1,5 @@
 {
-    "pizarnik": {
+  "pizarnik": {
     "titulo": "La carencia",
     "autor": "Alejandra Pizarnik",
     "anio": "",
@@ -18,17 +18,19 @@
     "imagenObra": "Leonora-Carrington-La-giganta-1947.jpg",
     "contexto": "Leonora Carrington fue internada contra su voluntad en España en 1940. Pintó esto en México, en 1947, viviendo en comunidad."
   },
-    "carrington2": {
+
+  "carrington2": {
     "titulo": "Memorias de abajo",
     "autor": "Leonora Carrington",
     "anio": "1943",
     "tecnica": "fragmento",
     "imagenRetrato": "",
     "alineacion": "izquierda",
-    "textoObra": "Estuve llorando varias horas en el pueblo; luego volví a mi casa, donde me pasé veinticuatro horas provocándome vómitos con agua de azahar, interrumpidos por una pequeña siesta. Esperaba aliviar mi sufrimiento con estos espasmos que me sacudían el estómago como terremotos. Ahora sé que esta no era sino una de las razones de esos vómitos: había visto la injusticia de la sociedad, primero quería limpiarme yo misma, y luego ir más allá de su brutal ineptitud. Mi estómago era el lugar donde se asentaba la sociedad, pero también el punto por donde me unía con todos los elementos de la tierra. Era el espejo de la tierra, cuyo reflejo es tan real como la persona reflejada. Tenía que eliminar de este espejo —⁠mi estómago⁠— las espesas capas de suciedad (las fórmulas aceptadas) que lo empañaban, a fin de que reflejase clara y fielmente la tierra; y cuando digo «la tierra» me refiero, como es natural, a todas las tierras, estrellas y soles del cielo que hay sobre la tierra, así como a todas las estrellas, soles y tierras del sistema solar de los microbios.\nDurante tres semanas comí muy poco, evitando la carne escrupulosamente; bebía vino y alcohol, y me sustentaba de patatas y ensaladas, a un promedio, quizá, de dos patatas al día. Mi impresión es que dormí bastante bien. Trabajé en mis vides, asombrando a los campesinos con mi fuerza. Se avecinaba el día de San Juan; las vides estaban a punto de florecer, había que sulfatarlas a menudo. También trabajaba en mis patatas. Cuanto más sudaba, más me gustaba, porque eso quería decir que me estaba purificando. Tomaba el sol, y tenía una fuerza física como no había experimentado antes ni he experimentado después.\nEn el mundo exterior estaban ocurriendo diversos acontecimientos: la caída de Bélgica, la entrada de los alemanes en Francia. Todo eso me interesaba bien poco, y no abrigaba temor alguno dentro de mí. El pueblo se hallaba atestado de belgas, y habían entrado unos soldados en mi casa, acusándome de espía y amenazándome con pegarme un tiro allí mismo porque alguien había estado buscando caracoles por la noche, con una linterna, cerca de casa. Sus amenazas me impresionaron muy poco, porque sabía que no estaba destinada a morir. ",
+    "textoObra": "Estuve llorando varias horas en el pueblo; luego volví a mi casa, donde me pasé veinticuatro horas provocándome vómitos con agua de azahar, interrumpidos por una pequeña siesta. Esperaba aliviar mi sufrimiento con estos espasmos que me sacudían el estómago como terremotos. Ahora sé que esta no era sino una de las razones de esos vómitos: había visto la injusticia de la sociedad, primero quería limpiarme yo misma, y luego ir más allá de su brutal ineptitud. Mi estómago era el lugar donde se asentaba la sociedad, pero también el punto por donde me unía con todos los elementos de la tierra. Era el espejo de la tierra, cuyo reflejo es tan real como la persona reflejada. Tenía que eliminar de este espejo —⁠mi estómago⁠— las espesas capas de suciedad (las fórmulas aceptadas) que lo empañaban, a fin de que reflejase clara y fielmente la tierra; y cuando digo «la tierra» me refiero, como es natural, a todas las tierras, estrellas y soles del cielo que hay sobre la tierra, así como a todas las estrellas, soles y tierras del sistema solar de los microbios.\nDurante tres semanas comí muy poco, evitando la carne escrupulosamente; bebía vino y alcohol, y me sustentaba de patatas y ensaladas, a un promedio, quizá, de dos patatas al día. Mi impresión es que dormí bastante bien. Trabajé en mis vides, asombrando a los campesinos con mi fuerza. Se avecinaba el día de San Juan; las vides estaban a punto de florecer, había que sulfatarlas a menudo. También trabajaba en mis patatas. Cuanto más sudaba, más me gustaba, porque eso quería decir que me estaba purificando. Tomaba el sol, y tenía una fuerza física como no había experimentado antes ni he experimentado después.\nEn el mundo exterior estaban ocurriendo diversos acontecimientos: la caída de Bélgica, la entrada de los alemanes en Francia. Todo eso me interesaba bien poco, y no abrigaba temor alguno dentro de mí. El pueblo se hallaba atestado de belgas, y habían entrado unos soldados en mi casa, acusándome de espía y amenazándome con pegarme un tiro allí mismo porque alguien había estado buscando caracoles por la noche, con una linterna, cerca de casa. Sus amenazas me impresionaron muy poco, porque sabía que no estaba destinada a morir.",
     "contexto": "Leonora Carrington fue internada contra su voluntad en España en 1940. Pintó esto en México, en 1947, viviendo en comunidad."
   },
-    "hilma": {
+
+  "hilma": {
     "titulo": "Los diez más grandes, n.º 7, Edad adulta, Grupo IV",
     "autor": "Hilma af Klint",
     "anio": "1907",
@@ -37,7 +39,8 @@
     "imagenObra": "Hilma af klint.jpg",
     "contexto": "Hilma af Klint creía que el mundo visible era solo una parte de lo real. Pintaba guiada, decía, por entidades que le dictaban formas y colores para hacer visible lo que está oculto a los ojos."
   },
-    "wagner": {
+
+  "wagner": {
     "titulo": "H.C. Nº 13.176",
     "autor": "Marisa Wagner",
     "anio": "1997",
@@ -45,7 +48,8 @@
     "textoObra": "Ya no consumo Halopidol,\nsolo Tegretol, Anafranil y Litio.\nEstoy “compensada”.\nTraduzcamos:\nMe mantengo de éste lado,\nes decir , sin delirios…\ny deambulo…\n(porque nosotros, los pacientes, deambulamos).\nEs una nueva costumbre que he adquirido.\nDeambulo-como digo-\n“libremente” por el enorme parque del hospicio…\nEstoy lúcida, ubicada en tiempo y espacio,\npor lo tanto:\nSé en qué día vivo.\n¿Vivo? Me pregunto,\nY me entra la tristeza y me deprimo.\nLa historia clínica se pone gorda de tristezas.\nYo soy mi historia clínica.\n¿Dejé de ser mi historia, acaso?\nEs muy malo preguntarse tantas cosas\nque complican, además el tratamiento.\nTengo sueños, pesadillas…\nque a nadie se las cuento, por las dudas,\nno sea cosa, vayan a la historia clínica.\nPero si tengo insomnio, por ejemplo,\nesto es inocultable,\ny vá derecho a la historia clínica.\nMi psiquiatra, entonces,\nregula las pastillas .\nDuermo. Se anota en la historia clínica.\nDoctor, estoy amando…\n¿Esto también irá a la historia clínica?\n\nAl Dr. Omar Barro Curi con amarga ironía pero con enorme amor.",
     "contexto": "Marisa Wagner fue poeta, artista y militante por los derechos de las personas internadas por motivos de salud mental. Pasó largos períodos en instituciones psiquiátricas y escribió parte de su obra durante su internación en la Colonia Montes de Oca."
   },
-    "hopper": {
+
+  "hopper": {
     "titulo": "Automat",
     "autor": "Edward Hopper",
     "anio": "1927",
