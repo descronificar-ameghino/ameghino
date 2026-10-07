@@ -96,6 +96,27 @@ h1 {
   text-align: left;
   max-width: 560px;
 }
+.audio-enlace {
+  margin: -0.5rem auto 2.5rem;
+  text-align: center;
+}
+
+.audio-enlace a {
+  display: inline-block;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  color: #c8a97a;
+  text-decoration: none;
+  border: 1px solid #6f604c;
+  padding: 0.7rem 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.audio-enlace a:hover {
+  color: #f5efe4;
+  border-color: #c8a97a;
+}
 
 .contexto {
   font-family: 'IM Fell English', serif;
