@@ -89,5 +89,41 @@
   "imagenRetrato": "",
   "imagenObra": "Francesca-Woodman-From-Space2-1976.png",
   "contexto": "Francesca Woodman fue una fotógrafa estadounidense conocida por sus fotografías en blanco y negro. Trabajó con su propio cuerpo, el movimiento y los espacios que habitaba, produciendo imágenes en las que la figura aparece, desaparece o se confunde con su entorno."
+},
+  ,
+"farolito": {
+  "titulo": "El farolito",
+  "autor": "Los Piojos",
+  "anio": "1996",
+  "tecnica": "Canción",
+  "imagenRetrato": "",
+  "imagenObra": "",
+  "audioLink": "https://www.youtube.com/watch?v=I8OJeZOyxzY",
+  "textoObra": "Dentro tuyo, dentro tuyo, están las llaves\nSolas, eh, solas, esperan tus manos\nTanto buscar, tanto buscar por afuera\nY ahora, te, y ahora, te gana el desgano",
+  "contexto": "Los Piojos fue una de las bandas centrales del rock argentino de los años noventa. “El farolito” de 3er Arco (1996) habla del desgano, del deseo y de aquello que a veces cuesta poner en palabras."
+},
+
+"balada": {
+  "titulo": "Balada para un loco",
+  "autor": "Astor Piazzolla y Horacio Ferrer",
+  "anio": "1969",
+  "tecnica": "Tango canción",
+  "imagenRetrato": "",
+  "imagenObra": "",
+  "audioLink": "https://www.youtube.com/watch?v=w6VDIm_Aj_w",
+  "textoObra": "Quereme así, piantao, piantao, piantao\nTrepate a esta ternura de locos que hay en mí\nPonete esta peluca de alondras, ¡y volá!\n¡Volá conmigo ya!, ¡vení, volá, vení!",
+  "contexto": "Astor Piazzolla y Horacio Ferrer presentaron “Balada para un loco” en 1969. La canción convirtió la locura en una forma de recorrer Buenos Aires desde el amor, la imaginación y la poesía."
+},
+
+"seru": {
+  "titulo": "Yo no quiero volverme tan loco",
+  "autor": "Serú Girán",
+  "anio": "1981",
+  "tecnica": "Canción",
+  "imagenRetrato": "",
+  "imagenObra": "",
+  "audioLink": "https://www.youtube.com/watch?v=nD0KZIPPxA4",
+  "textoObra": "Yo quiero ver muchos más delirantes por ahí\nBailando en una calle cualquiera\nEn Buenos Aires se ve que ya no hay tiempo de más\nLa alegría no es solo brasilera (no, mi amor)",
+  "contexto": "Serú Girán grabó “Yo no quiero volverme tan loco” en 1981. En una ciudad atravesada por el miedo y la violencia, la canción habla también del deseo de conservar algo propio y encontrar otra manera de vivir."
 }
 }
