@@ -39,7 +39,9 @@
         const metadatosPartes = [obra.autor, obra.anio, obra.tecnica].filter(Boolean);
 
         contenedor.innerHTML = `
-          ${obra.imagenRetrato ? `<img class="obra-imagen" src="../imagenes/${obra.imagenRetrato}" alt="${obra.autor}">` : ''}
+          ${obra.imagenRetrato
+            ? `<img class="obra-imagen" src="../imagenes/${obra.imagenRetrato}" alt="${obra.autor}">`
+            : ''}
 
           <div class="contenido">
             <hr class="lineas-decorativas">
@@ -53,14 +55,23 @@
                 ? `<img class="poema-imagen" src="../imagenes/${obra.imagenObra}" alt="${obra.titulo}, de ${obra.autor}">`
                 : ''}
 
+            ${obra.audioLink
+              ? `<p class="audio-enlace">
+                   <a href="${obra.audioLink}" target="_blank" rel="noopener noreferrer">▶ ESCUCHAR / VER</a>
+                 </p>`
+              : ''}
+
             <hr class="separador">
 
             <p class="contexto">${obra.contexto}</p>
 
-            <p class="firma">Descronificar Ameghino<br>
-            <a href="mailto:descronificar.ameghino@gmail.com">descronificar.ameghino@gmail.com</a></p>
+            <p class="firma">
+              Descronificar Ameghino<br>
+              <a href="mailto:descronificar.ameghino@gmail.com">descronificar.ameghino@gmail.com</a>
+            </p>
           </div>
         `;
+
       } catch (err) {
         contenedor.innerHTML = '<p class="error">No se pudo cargar la obra.</p>';
       }
