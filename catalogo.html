@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Obras | Descronificar Ameghino</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #141210;
+      color: #f5efe4;
+      font-family: 'IM Fell English', serif;
+      min-height: 100vh;
+    }
+
+    .catalogo {
+      width: min(1100px, calc(100% - 3rem));
+      margin: 0 auto;
+      padding: 5rem 0 7rem;
+    }
+
+    .encabezado {
+      text-align: center;
+      max-width: 650px;
+      margin: 0 auto 4.5rem;
+    }
+
+    .marca {
+      font-family: 'IM Fell English SC', serif;
+      color: #c8a97a;
+      font-size: 0.9rem;
+      letter-spacing: 0.16em;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-weight: 600;
+      font-size: clamp(2.7rem, 7vw, 4.5rem);
+      line-height: 1;
+      margin-bottom: 1.5rem;
+    }
+
+    .introduccion {
+      color: #d8cfc2;
+      font-size: 1.15rem;
+      line-height: 1.6;
+      max-width: 520px;
+      margin: auto;
+    }
+
+    .lineas {
+      width: 100px;
+      border: 0;
+      border-top: 1px solid #b0a090;
+      margin: 2.2rem auto 0;
+    }
+
+    .obras {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3rem 2rem;
+    }
+
+    .obra {
+      color: inherit;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .visual {
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      background: #1d1a17;
+      border: 1px solid #2d2823;
+      margin-bottom: 1.3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .visual img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: saturate(.85);
+      transition: transform .5s ease, opacity .5s ease;
+    }
+
+    .obra:hover .visual img {
+      transform: scale(1.025);
+      opacity: .88;
+    }
+
+    .visual-texto {
+      padding: 2rem;
+      text-align: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-weight: 600;
+      font-size: 1.35rem;
+      line-height: 1.35;
+      color: #d8cfc2;
+    }
+
+    .simbolo {
+      display: block;
+      font-family: 'IM Fell English', serif;
+      font-style: normal;
+      color: #c8a97a;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .titulo {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-weight: 600;
+      font-size: 1.55rem;
+      line-height: 1.15;
+      margin-bottom: .4rem;
+    }
+
+    .datos {
+      font-family: 'IM Fell English SC', serif;
+      color: #b0a090;
+      font-size: .82rem;
+      line-height: 1.5;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    .ver {
+      color: #c8a97a;
+      font-family: 'IM Fell English SC', serif;
+      font-size: .78rem;
+      letter-spacing: .1em;
+      margin-top: .9rem;
+    }
+
+    .volver {
+      text-align: center;
+      margin-top: 5rem;
+      padding-top: 2rem;
+      border-top: 1px solid #2a2622;
+    }
+
+    .volver a {
+      color: #b0a090;
+      font-style: italic;
+      text-decoration: none;
+    }
+
+    .volver a:hover,
+    .obra:hover .ver {
+      color: #f5efe4;
+    }
+
+    .error {
+      text-align: center;
+      color: #b0a090;
+      font-style: italic;
+      grid-column: 1 / -1;
+    }
+
+    @media (max-width: 800px) {
+      .obras {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 520px) {
+      .catalogo {
+        width: calc(100% - 2.5rem);
+        padding-top: 3.5rem;
+      }
+
+      .encabezado {
+        margin-bottom: 3rem;
+      }
+
+      .obras {
+        grid-template-columns: 1fr;
+        gap: 3.2rem;
+      }
+
+      .visual {
+        aspect-ratio: 4 / 3;
+      }
+
+      .titulo {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="catalogo">
+
+    <header class="encabezado">
+      <div class="marca">DESCRONIFICAR AMEGHINO</div>
+
+      <h1>Obras que ya aparecieron</h1>
+
+      <p class="introduccion">
+        No hay un recorrido indicado.<br>
+        También podés recorrerlas desde acá.
+      </p>
+
+      <hr class="lineas">
+    </header>
+
+    <section class="obras" id="obras">
+      <p class="error">Cargando obras…</p>
+    </section>
+
+    <div class="volver">
+      <a href="index.html">← volver al inicio</a>
+    </div>
+
+  </main>
+
+  <script>
+    fetch('obras.json')
+      .then(respuesta => {
+        if (!respuesta.ok) {
+          throw new Error('No se pudo cargar obras.json');
+        }
+        return respuesta.json();
+      })
+
+      .then(obras => {
+        const contenedor = document.getElementById('obras');
+        contenedor.innerHTML = '';
+
+        Object.entries(obras).forEach(([id, obra]) => {
+
+          const enlace = document.createElement('a');
+          enlace.className = 'obra';
+          enlace.href = `obras/obra.html?a=${id}`;
+
+          const visual = document.createElement('div');
+          visual.className = 'visual';
+
+          if (obra.imagenObra) {
+
+            const imagen = document.createElement('img');
+            imagen.src = `obras/${obra.imagenObra}`;
+            imagen.alt = obra.titulo;
+            imagen.loading = 'lazy';
+
+            visual.appendChild(imagen);
+
+          } else {
+
+            const texto = document.createElement('div');
+            texto.className = 'visual-texto';
+
+            const simbolo = document.createElement('span');
+            simbolo.className = 'simbolo';
+
+            if (obra.audioLink) {
+              simbolo.textContent = '♪';
+            } else {
+              simbolo.textContent = '✦';
+            }
+
+            texto.appendChild(simbolo);
+
+            const tipo = document.createElement('span');
+
+            if (obra.audioLink) {
+              tipo.textContent = 'Canción';
+            } else if (obra.tecnica) {
+              tipo.textContent = obra.tecnica;
+            } else {
+              tipo.textContent = 'Obra';
+            }
+
+            texto.appendChild(tipo);
+            visual.appendChild(texto);
+          }
+
+          const titulo = document.createElement('h2');
+          titulo.className = 'titulo';
+          titulo.textContent = obra.titulo;
+
+          const datos = document.createElement('div');
+          datos.className = 'datos';
+
+          let info = obra.autor || '';
+
+          if (obra.anio) {
+            info += ` · ${obra.anio}`;
+          }
+
+          datos.textContent = info;
+
+          const ver = document.createElement('div');
+          ver.className = 'ver';
+
+          if (obra.audioLink) {
+            ver.textContent = 'ESCUCHAR / VER →';
+          } else if (
+            obra.tecnica &&
+            (
+              obra.tecnica.toLowerCase().includes('poema') ||
+              obra.tecnica.toLowerCase().includes('fragmento')
+            )
+          ) {
+            ver.textContent = 'LEER →';
+          } else {
+            ver.textContent = 'VER OBRA →';
+          }
+
+          enlace.appendChild(visual);
+          enlace.appendChild(titulo);
+          enlace.appendChild(datos);
+          enlace.appendChild(ver);
+
+          contenedor.appendChild(enlace);
+        });
+      })
+
+      .catch(error => {
+        document.getElementById('obras').innerHTML =
+          '<p class="error">No pudimos cargar las obras.</p>';
+
+        console.error(error);
+      });
+  </script>
+
+</body>
+</html>
