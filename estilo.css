@@ -156,28 +156,7 @@ h1 {
 @keyframes aparecer {
   from { opacity: 0; transform: translateY(12px); }
   to { opacity: 1; transform: translateY(0); }
-}
 
-.ver-catalogo {
-  margin: 3rem auto;
-  text-align: center;
-}
-
-.ver-catalogo a {
-  display: inline-block;
-  font-family: 'IM Fell English SC', serif;
-  font-size: 0.9rem;
-  letter-spacing: 0.1em;
-  color: #c8a97a;
-  text-decoration: none;
-  border-bottom: 1px solid #6f604c;
-  padding-bottom: 0.35rem;
-  transition: all 0.3s ease;
-}
-
-.ver-catalogo a:hover {
-  color: #f5efe4;
-  border-color: #c8a97a;
 }
 @media (max-width: 480px) {
   h1 { font-size: 2.1rem; }
