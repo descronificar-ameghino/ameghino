@@ -221,7 +221,31 @@
     }
 
     .contact a:hover { border-color: var(--accent); }
+.catalogo-link {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid var(--rule);
+  text-align: center;
+  opacity: 0;
+  animation: riseIn 1.4s ease forwards 1.8s;
+}
 
+.catalogo-link a {
+  display: inline-block;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 15px;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 4px;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.catalogo-link a:hover {
+  color: var(--ink);
+  border-color: var(--accent);
+}
     .closing {
       margin-top: 48px;
       opacity: 0;
@@ -319,7 +343,9 @@
       <p>El Ameghino se sostiene con sus paredes y sus cimientos, pero también con sus historias, sus esperas, sus silencios en los pasillos y las personas que vuelven durante años.</p>
       <p>Este edificio también está hecho de quienes lo atraviesan.</p>
     </div>
-
+<div class="catalogo-link">
+  <a href="catalogo.html">Ver todas las obras →</a>
+</div>
     <div class="contact">
       <div class="contact-label">Sumá tu obra</div>
       <p>Si querés compartir algo tuyo para que forme parte de este recorrido, escribinos a</p>
