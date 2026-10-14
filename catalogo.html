@@ -242,6 +242,7 @@
         if (!respuesta.ok) {
           throw new Error('No se pudo cargar obras.json');
         }
+
         return respuesta.json();
       })
 
@@ -275,7 +276,17 @@
             const simbolo = document.createElement('span');
             simbolo.className = 'simbolo';
 
-            if (obra.audioLink) {
+            const esVideo =
+              obra.tecnica &&
+              (
+                obra.tecnica.toLowerCase().includes('cortometraje') ||
+                obra.tecnica.toLowerCase().includes('video') ||
+                obra.tecnica.toLowerCase().includes('audiovisual')
+              );
+
+            if (esVideo) {
+              simbolo.textContent = '▶';
+            } else if (obra.audioLink) {
               simbolo.textContent = '♪';
             } else {
               simbolo.textContent = '✦';
@@ -285,10 +296,10 @@
 
             const tipo = document.createElement('span');
 
-            if (obra.audioLink) {
-              tipo.textContent = 'Canción';
-            } else if (obra.tecnica) {
+            if (obra.tecnica) {
               tipo.textContent = obra.tecnica;
+            } else if (obra.audioLink) {
+              tipo.textContent = 'Canción';
             } else {
               tipo.textContent = 'Obra';
             }
@@ -315,8 +326,18 @@
           const ver = document.createElement('div');
           ver.className = 'ver';
 
-          if (obra.audioLink) {
-            ver.textContent = 'ESCUCHAR / VER →';
+          const esVideo =
+            obra.tecnica &&
+            (
+              obra.tecnica.toLowerCase().includes('cortometraje') ||
+              obra.tecnica.toLowerCase().includes('video') ||
+              obra.tecnica.toLowerCase().includes('audiovisual')
+            );
+
+          if (esVideo && obra.audioLink) {
+            ver.textContent = 'VER VIDEO →';
+          } else if (obra.audioLink) {
+            ver.textContent = 'ESCUCHAR →';
           } else if (
             obra.tecnica &&
             (
