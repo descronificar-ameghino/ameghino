@@ -125,5 +125,90 @@
   "audioLink": "https://www.youtube.com/watch?v=nD0KZIPPxA4",
   "textoObra": "Yo quiero ver muchos más delirantes por ahí\nBailando en una calle cualquiera\nEn Buenos Aires se ve que ya no hay tiempo de más\nLa alegría no es solo brasilera (no, mi amor)",
   "contexto": "Serú Girán grabó “Yo no quiero volverme tan loco” en 1981. En una ciudad atravesada por el miedo y la violencia, la canción habla también del deseo de conservar algo propio y encontrar otra manera de vivir."
+},
+"motorpsico": {
+  "titulo": "Motorpsico",
+  "autor": "Patricio Rey y sus Redonditos de Ricota",
+  "anio": "1986",
+  "tecnica": "Canción",
+  "imagenRetrato": "",
+  "imagenObra": "",
+  "audioLink": "https://www.youtube.com/watch?v=6mFGt0UgA_w",
+  "textoObra": "Voy jugando de acuerdo al dolor\n(fichando de más…)\nMi dios no juega dados,\nquizás… esté a mi favor.",
+  "contexto": "Patricio Rey y sus Redonditos de Ricota presentaron “Motorpsico” en 1986 (en su álbum Oktubre). La canción utiliza una atmósfera densa y urbana para reflexionar sobre el desamparo, el pulso de la marginalidad y la resistencia de un motor interno que insiste en marchar a contramano de los mandatos y los encierros del sistema."
+},
+
+"dosmasdos": {
+  "titulo": "2 + 2 = 3",
+  "autor": "La Renga",
+  "anio": "1994",
+  "tecnica": "Canción",
+  "imagenRetrato": "",
+  "imagenObra": "",
+  "audioLink": "https://www.youtube.com/watch?v=7CBiX6Y2NDA",
+  "textoObra": "Y que distinta sería la vida\nSi a cada suma le haría un sustraendo\nY que dichosa sería nuestra suerte\nQue los cornudos serían unicornio\nY a mí me faltaría un día menos\nPara el alta en el manicomio",
+  "contexto": "La Renga presentó “2 + 2 = 3” en 1994 (en su álbum A dónde me lleva la vida...). La canción utiliza una atmósfera rockera y una premisa distópica para cuestionar los mandatos de la \"razón\" oficial, la lógica impuesta por el sistema y el control sobre los cuerpos, contraponiendo la rebeldía del pensamiento propio frente a las estructuras que buscan normalizar y encasillar."
+},
+
+"happiness": {
+  "titulo": "Happiness",
+  "autor": "Steve Cutts",
+  "anio": "2017",
+  "tecnica": "Cortometraje de animación",
+  "imagenRetrato": "",
+  "imagenObra": "",
+  "audioLink": "https://www.youtube.com/watch?v=e9dZQelULDk",
+  "contexto": "En este cortometraje, el ilustrador y animador británico Steve Cutts sigue a una rata en su búsqueda incansable de felicidad. Entre multitudes, consumo y promesas de satisfacción, la animación construye una mirada irónica sobre las formas contemporáneas de perseguir el bienestar."
+},
+
+"ansiedad": {
+  "titulo": "La ansiedad",
+  "autor": "Edvard Munch",
+  "anio": "1894",
+  "tecnica": "Óleo sobre lienzo",
+  "imagenRetrato": "",
+  "imagenObra": "Edvard-Munch-La-ansiedad-1894.jpg",
+  "contexto": "Edvard Munch presentó “Ansiedad” en 1894. El artista noruego utilizó el color y el movimiento de las figuras para darle forma a la inquietud y el desasosiego que muchas veces nos atraviesan, transformando una emoción invisible en un punto de encuentro compartido a través del arte."
+},
+
+"masin": {
+  "titulo": "Curar y ser curados",
+  "autor": "Claudia Masin",
+  "anio": "",
+  "tecnica": "Poema",
+  "imagenRetrato": "",
+  "textoObra": "(...) lo que digo sabe\nmucho más que yo, que quedo\nigual de ignorante una vez que pasa\na través de mí como la luz, que no modifica\nlo que ha iluminado. Sirvo\npara que la luz pase,\npase, no se quede en mí, ya quisiera\nser algo más que vidrio sucio que no deja\nver nada. A vos te estoy pidiendo:\nsé la luz que se queda. El monstruo ha vuelto,\nel monstruo\nque cargo es pesado, su cuerpo\nera pesado en vida, en la muerte es\nimposible de cargar pero lo cargo, de un lado\na otro lo llevo conmigo, me dice\nestás dañada, un pájaro sos\narrastrando los huesos rotos\npor el barro. (...)",
+  "contexto": "La poeta argentina Claudia Masin explora en su escritura las relaciones entre el cuerpo, la memoria, el dolor y los vínculos. En este fragmento de Curar y ser curados, la palabra se mueve entre aquello que pesa, lo que puede transmitirse y la presencia de otro a quien se dirige una petición."
+},
+
+"nocheestrellada": {
+  "titulo": "La noche estrellada",
+  "autor": "Vincent van Gogh",
+  "anio": "1889",
+  "tecnica": "Óleo sobre lienzo",
+  "imagenRetrato": "",
+  "imagenObra": "Van-Gogh-La-noche-estrellada-1889.jpg",
+  "contexto": "Vincent van Gogh pintó La noche estrellada en 1889, durante su estancia en Saint-Rémy-de-Provence, Francia. En la obra, el cielo nocturno parece adquirir movimiento propio: las estrellas, la luna y las formas ondulantes transforman el paisaje en una experiencia que desborda su representación habitual."
+},
+
+"ward": {
+  "titulo": "Nido de víboras",
+  "autor": "Mary Jane Ward",
+  "anio": "1946",
+  "tecnica": "Fragmento",
+  "imagenRetrato": "",
+  "alineacion": "izquierda",
+  "textoObra": "—¿Oyes voces? —preguntó él.\n¿Crees que soy sorda? —Por supuesto —respondió ella—, oigo las tuyas. Era difícil seguir siendo educada. Estaba cansada y él llevaba tanto tiempo haciendo preguntas, días y días de preguntas increíblemente ingenuas.\nAhora le explicaba que ella no lo había entendido; no se refería a voces reales. Fantástico. Estaba hablando, dijo, de voces que no eran reales y, sin embargo, eran voces que esperaba que ella oyera. Parecía decidido a que las oyera. Era una especie de molestia, ese hombre, pero a ella no se le ocurría ninguna forma decente de librarse de él. Se notaba que tenía buenas intenciones y por eso intentabas jugar con él, como si fuera un niño fantasioso. Puedes hacer que el agua diga cualquier cosa —dijo ella. Eso debería atraer la imaginación infantil que saltaba de guijarro en guijarro, bailando al sol, riendo entre los destellos.\nY ahora el agua se precipitaba desde el tranquilo estanque de su voz a un lecho lleno de piedras, incómodo para los peces. El canto de los peces. El arroyo se elevó hasta convertirse en un soprano rápido y su voz lo estaba transformando en un niño pequeño. Terrible. Ella trató de no mirar, pero al final sus ojos se volvieron irresistiblemente y, con horror, vio que era una niña. Había sospechado que él hacía magia y ahora lo sabía.\nPor una vez, no estaba haciendo preguntas; estaba dejando que un galimatías fluyera de sus labios y sería mucho más difícil entenderlo que imaginar palabras de un arroyo genuino. Supongamos que no era él.\nElla giró la cabeza. Tenía la peculiar costumbre de agacharse detrás de ti. ¿Estaba en los arbustos? ¿Y quién era exactamente? Te encontrabas con tanta gente e iban y venían antes de que pudieras clasificarlos adecuadamente. Hace un momento estaba aquí y hablaba seriamente de voces que no eran voces reales y sabías que se entristecería si descubriera que no sabías su nombre. No importa. El sol es lo principal.",
+  "contexto": "En 1946, la escritora estadounidense Mary Jane Ward publicó Nido de víboras, una novela basada en su propia experiencia de internación psiquiátrica. La novela contribuyó a visibilizar las condiciones de los hospitales psiquiátricos de su época y abrió debates sobre las prácticas de atención."
+},
+
+"kusama": {
+  "titulo": "Infinity Mirrored Room: The Souls of Millions of Light Years Away",
+  "autor": "Yayoi Kusama",
+  "anio": "2013",
+  "tecnica": "Instalación",
+  "imagenRetrato": "",
+  "imagenObra": "Yayoi-Kusama-Infinity-Mirrored-Room-2013.jpg",
+  "contexto": "En 2013, la artista japonesa Yayoi Kusama creó esta instalación inmersiva utilizando espejos y pequeñas luces que se multiplican hasta parecer infinitas. A lo largo de su obra, Kusama ha explorado la repetición, el espacio y los límites entre el individuo y el universo. Sus habitaciones de espejos invitan a experimentar otras formas de percibirnos y de relacionarnos con aquello que nos rodea."
 }
 }
